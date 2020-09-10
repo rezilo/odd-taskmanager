@@ -4,12 +4,15 @@
   "private": true,
   "description": "Учебный проект «Менеджер задач» от HTML Academy",
   "scripts": {
-    "eslint": "eslint src/**/*.js",
+    "eslint": "eslint src/*.js",
     "test": "npm run eslint"
   },
   "devDependencies": {
-    "eslint": "6.1.0",
-    "eslint-config-htmlacademy": "0.5.2"
+    "eslint": "^7.8.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-htmlacademy": "0.5.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-prettier": "^3.1.4"
   },
   "engines": {
     "node": "10"
