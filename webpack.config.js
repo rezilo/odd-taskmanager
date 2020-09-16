@@ -5,7 +5,13 @@ module.exports = {
   entry: './src/main.js',
   output: {
     filename: 'bundle.js',
-    path: path.join(__dirname, 'public'),
+    path: path.resolve(__dirname, 'public'),
   },
   devtool: 'source-map',
+  resolve: {
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+  },
+  node: {
+    __dirname: true,
+  },
 };

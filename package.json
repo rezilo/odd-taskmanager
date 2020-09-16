@@ -2,7 +2,7 @@
   "name": "TaskManager",
   "version": "1.0.0",
   "private": true,
-  "description": "Учебный проект «Менеджер задач» от HTML Academy",
+  "description": "Учебный проект «Менеджер задач»",
   "scripts": {
     "eslint": "eslint src/*.js",
     "test": "npm run eslint",
@@ -11,16 +11,13 @@
   "devDependencies": {
     "eslint": "^7.8.1",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-htmlacademy": "0.5.2",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-prettier": "^3.1.4",
-    "fsevents": "^2.1.3",
     "prettier": "^2.1.1",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "3.3.12"
   },
   "engines": {
     "node": "12"
-  },
-  "dependencies": {}
+  }
 }
