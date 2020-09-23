@@ -8,6 +8,10 @@ module.exports = {
     path: path.resolve(__dirname, 'public'),
   },
   devtool: 'source-map',
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+    watchContentBase: true,
+  },
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
